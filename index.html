@@ -1,0 +1,169 @@
+<html>
+    <head>
+        <title>Zomato</title>
+        <link href="first.css" rel="stylesheet" type="text/css"/>
+        <style>
+            body{
+                background-color: white;
+                color: black;
+            }
+            .mydark{
+                background-color: black;
+                color:white;
+            }
+        </style>
+    </head>
+    <body>
+        <script>
+            function changeMode(){
+                var mybody = document.body;
+                mybody.classList.toggle('mydark')
+            }
+        </script>
+        <div>
+            <header>
+                <div id="icon">
+                    <h1>Zomato</h1>
+                </div>
+                <div id="social">
+                    <a href="https//www.facebook.com" target="_blank">
+                        <img src="image/facebook.png" alt="Facebook" class="slogo"/>
+                    </a>
+                    <a href="https//www.instagram.com" target="_blank">
+                        <img src="image/insta.png" alt="Instagram" class="slogo"/>
+                    </a>
+                    <a href="https//www.youtube.com" target="_blank">
+                        <img src="image/youtube1.png" alt="youtube" class="slogo"/>
+                    </a>
+                    <button onclick="changeMode()">Change Mode</button>
+                </div>
+            </header>
+            <div id="search">
+                <div id="logo">
+                    <span>E!</span>
+                </div>
+                <div id="heading">
+                    Find The Best Restaurants Near You
+                </div>
+                <div class="dropdown">
+                    <select>
+                        <option>-----PLEASE SELECT CITY-----</option>
+                        <option>Delhi</option>
+                        <option>Mumbai</option>
+                        <option>Pune</option>
+                    </select>
+                    <select class="restlist">
+                        <option>-----PLEASE SELECT RESTAURANTS-----</option>
+                        <option>Delhi</option>
+                        <option>Mumbai</option>
+                        <option>Pune</option>
+                    </select>
+                </div>
+                
+            </div>
+            <div id="QuickSearch">
+                <span id="QuickHeading">
+                    Quick Search
+                </span>
+                <span id="QuickSubHeading">
+                    Discover Restaurants By Meal
+                </span>
+                <div id="mainContainer">
+                    <div class="tileContainer">
+                        <div class="tileComponent1">
+                            <img src="image/sacks.png" alt="snacks"/>
+                        </div>
+                        <div class="tileComponent2">
+                            <div class="componentHeading">
+                                <a href="./listing.html">BreakFast</a>
+                            </div>
+                            <div class="componentSubHeading">
+                                Enjoy Your BreakFast Meal
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tileContainer">
+                        <div class="tileComponent1">
+                            <img src="image/nightlife.png" alt="snacks"/>
+                        </div>
+                        <div class="tileComponent2">
+                            <div class="componentHeading">
+                                <a href="./listing.html">Nightlife</a>
+                            </div>
+                            <div class="componentSubHeading">
+                                Enjoy Your Nightlife Club
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tileContainer">
+                        <div class="tileComponent1">
+                            <img src="image/dinner.png" alt="snacks"/>
+                        </div>
+                        <div class="tileComponent2">
+                            <div class="componentHeading">
+                                <a href="./listing.html">Dinner</a>
+                            </div>
+                            <div class="componentSubHeading">
+                                Enjoy Your Dinner Meal
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tileContainer">
+                        <div class="tileComponent1">
+                            <img src="image/drinks.png" alt="snacks"/>
+                        </div>
+                        <div class="tileComponent2">
+                            <div class="componentHeading">
+                                <a href="./listing.html">Drinks</a>
+                            </div>
+                            <div class="componentSubHeading">
+                                Enjoy Your Drinks Meal
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tileContainer">
+                        <div class="tileComponent1">
+                            <img src="image/brunch.jpg" alt="snacks"/>
+                        </div>
+                        <div class="tileComponent2">
+                            <div class="componentHeading">
+                                <a href="./listing.html">Brunch</a>
+                            </div>
+                            <div class="componentSubHeading">
+                                Enjoy Your Brunch Meal
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tileContainer">
+                        <div class="tileComponent1">
+                            <img src="image/snacks.jpg" alt="snacks"/>
+                        </div>
+                        <div class="tileComponent2">
+                            <div class="componentHeading">
+                                <a href="./listing.html">Snacks</a>
+                            </div>
+                            <div class="componentSubHeading">
+                                Enjoy Your Snacks
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="click">
+                <p>For Listing Page <a href="./listing.html">Click Here</a></p>
+            </div>
+            <footer>
+                <div id="foot1">
+                    <h3 style="text-align: center;">Contact Us</h3>
+                    <p style="text-align: center;">Call Us: +0413 2616014</p>
+                    <p style="text-align: center;">Moblie: +91 90000 90000</p>
+                    <p style="text-align: center;">Email: zomoto@gmail.com</p>
+                    </hr>
+                </div> 
+                <div id="foot2">
+                    <h3>&copy; Pathri Kumaravel</h3>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
